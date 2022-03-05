@@ -32,7 +32,6 @@ export default function App() {
       await tf.ready();
       setIsTfReady(true);
       console.log('TF carregado');
-      setIsLoading(false);
     }
     loadingTf();
   }, []);
@@ -116,7 +115,7 @@ export default function App() {
 
   if (loading) {
     return (
-      <View>
+      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
         <ActivityIndicator size="large" animating={true}  />
         <Text>{'Carregando'}</Text>
       </View>
@@ -125,6 +124,7 @@ export default function App() {
 
   return (
       <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
+        { loading && <ActivityIndicator size="large" animating={true}  />}
         {
           model && (
             <View>
