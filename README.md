@@ -6,7 +6,7 @@ A proposta deste trabalho foi desenvolver uma ferramenta de classificação de i
 Foi desenvolvido também um aplicativo com intuito de ser um _Proof of Concept_, mostrando uma das diversas possibilidades de utilização do modelo treinado. O aplicativo foi implementado em React Native, utilizando o pacote tfjs-react-native.
 
 ## Baixar o aplicativo
-- [Android](https://github.com/souza-dev/HouseRoomClassifier/blob/main/HouseRoomClassifier.apk)
+- [Android](https://github.com/souza-dev/HouseRoomClassifier/releases/download/v1.0.1/HouseRoomClassifier1.0.1.apk)
 
 ## Screenshot
 ![HouseRoomClassifier](https://i.ibb.co/9NPT4tX/Screenshot-20220305-190120-Tensor-Flow-Test.jpg)
