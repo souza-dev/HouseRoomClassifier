@@ -113,15 +113,6 @@ export default function App() {
     return <Text>No access to camera</Text>;
   }
 
-  if (loading) {
-    return (
-      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-        <ActivityIndicator size="large" animating={true}  />
-        <Text>{'Carregando'}</Text>
-      </View>
-    )
-  }
-
   return (
       <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
         { loading && <ActivityIndicator size="large" animating={true}  />}
